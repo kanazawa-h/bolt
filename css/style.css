@@ -1,0 +1,63 @@
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+}
+
+.fas {
+  padding: 15px;
+}
+
+.contact-button {
+  background-color: #74cfae;
+  float: right;
+  margin: 13px;
+}
+
+.contact_text {
+  font-size: 12px;
+  padding: 14px 12px;
+  color: #fff;
+}
+
+.main {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.title_bolt {
+  color: #74cfae;
+  padding-top:  250px;
+  font-size: 90px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sub_title {
+  color: #c0c0c0;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 250px;
+  text-align: center;
+}
+
+.article {
+  width: 100%;
+  background-color: #74cfae;
+}
+
+.SP_img {
+  padding-top: 50px;
+}
+
+.article_title {
+  display: inline-block;
+  font-size: 24px;
+  color: #fff;
+  padding: 50px;
+}
