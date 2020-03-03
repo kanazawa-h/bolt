@@ -30,9 +30,12 @@ header {
   background-color: #f2f2f2;
 }
 
+.title_inner {
+  padding: 250px;
+}
+
 .title_bolt {
   color: #74cfae;
-  padding-top:  250px;
   font-size: 90px;
   font-weight: 700;
   text-align: center;
@@ -42,7 +45,6 @@ header {
   color: #c0c0c0;
   font-size: 30px;
   padding-top: 20px;
-  padding-bottom: 250px;
   text-align: center;
 }
 
@@ -51,13 +53,23 @@ header {
   background-color: #74cfae;
 }
 
-.SP_img {
+.article_inner {
   padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.article_text_box {
+  text-align: center;
 }
 
 .article_title {
-  display: inline-block;
   font-size: 24px;
   color: #fff;
-  padding: 50px;
+}
+
+.article_title_text {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #fff;
 }
