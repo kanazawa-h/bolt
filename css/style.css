@@ -61,6 +61,7 @@ header {
 
 .article_text_box {
   text-align: center;
+  width: 70%;
 }
 
 .article_title {
@@ -72,4 +73,33 @@ header {
   font-size: 20px;
   margin-top: 30px;
   color: #fff;
+}
+
+
+.section_title {
+  font-size: 24px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: #333;
+  text-align: center;
+}
+
+.OLW_img_box::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.OLW_img {
+  margin-left: 100px;
+  margin-bottom: 80px;
+  
+  float: left;
+}
+.OLW_img:first-child {
+  margin-left: 0px;
+}
+
+.OLW_img:nth-child(4){
+  margin-left: 0px;
 }
