@@ -25,13 +25,11 @@ header {
   color: #fff;
 }
 
-.main {
+.title_inner {
+  padding-top: 250px;
+  padding-bottom: 250px;
   width: 100%;
   background-color: #f2f2f2;
-}
-
-.title_inner {
-  padding: 250px;
 }
 
 .title_bolt {
@@ -48,38 +46,42 @@ header {
   text-align: center;
 }
 
-.article {
+.SP_what_box {
   width: 100%;
   background-color: #74cfae;
 }
 
-.article_inner {
+.SP_inner {
   padding-top: 50px;
   display: flex;
   justify-content: space-around;
 }
 
-.article_text_box {
+.SP_text_box {
   text-align: center;
   width: 70%;
 }
 
-.article_title {
+.SP_title {
   font-size: 24px;
   color: #fff;
 }
 
-.article_title_text {
+.SP_title_text {
   font-size: 20px;
   margin-top: 30px;
   color: #fff;
 }
 
+.OLW_box {
+  width: 100%;
+  background-color: #f2f2f2;
+}
 
-.section_title {
+.OLW_title {
   font-size: 24px;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 40px;
   color: #333;
   text-align: center;
 }
@@ -93,7 +95,6 @@ header {
 .OLW_img {
   margin-left: 100px;
   margin-bottom: 80px;
-  
   float: left;
 }
 .OLW_img:first-child {
@@ -102,4 +103,41 @@ header {
 
 .OLW_img:nth-child(4){
   margin-left: 0px;
+}
+
+.OLW_img:nth-child(n+4) {
+  margin-bottom: 90px;
+}
+
+.OLW_text_Email_box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.OLW_text {
+  width: 49%;
+  text-align: center;
+  margin-right: 90px;
+}
+
+.Email_button {
+  padding: 14px 20px;
+  background-color: #74cfae;
+}
+
+.Email_button_text {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+
+.skills_box {
+  width: 100%;
+  background-color: #4e4e4e;
+}
+
+.skills_title {
+  color: #fff;
+  font-size: 24px;
 }
