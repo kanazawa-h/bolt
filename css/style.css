@@ -132,7 +132,7 @@ header {
   text-align: center;
 }
 
-.skills_box {
+.skills_inner {
   width: 100%;
   background-color: #4e4e4e;
 }
@@ -140,4 +140,5 @@ header {
 .skills_title {
   color: #fff;
   font-size: 24px;
+  text-align: center;
 }
