@@ -1,12 +1,12 @@
 
 .inner {
-  width: 1100px;
   margin: 0 auto;
+  width: 1100px;
 }
 
 header {
-  width: 100%;
   background-color: #fff;
+  width: 100%;
 }
 
 .bolt_img {
@@ -15,9 +15,9 @@ header {
 
 .contact-button {
   background-color: #74cfae;
-  float: right;
-  margin: 13px;
   color: #fff;
+  margin: 13px;
+  float: right;
   text-decoration: none;
 }
 
@@ -27,15 +27,14 @@ header {
 }
 
 .contact_text {
-  font-size: 12px;
   padding: 14px 12px;
+  font-size: 12px;
 }
 
 .title_inner {
-  padding-top: 250px;
-  padding-bottom: 250px;
-  width: 100%;
   background-color: #f2f2f2;
+  padding: 250px 0;
+  width: 100%;
 }
 
 .title_bolt {
@@ -47,20 +46,20 @@ header {
 
 .sub_title {
   color: #c0c0c0;
-  font-size: 30px;
   padding-top: 20px;
+  font-size: 30px;
   text-align: center;
 }
 
 .SP_what_box {
-  width: 100%;
   background-color: #74cfae;
+  width: 100%;
 }
 
 .SP_inner {
-  padding-top: 50px;
   display: flex;
   justify-content: space-around;
+  padding-top: 50px;
 }
 
 .SP_text_box {
@@ -69,34 +68,30 @@ header {
 }
 
 .SP_title {
-  font-size: 24px;
   color: #fff;
-}
-
-.SP_title::first-letter {
-  font-family: garamond;
-  font-size: 28px;
+  font-size: 24px;
+  font-family: Raleway;
 }
 
 .SP_title_text {
-  font-size: 20px;
   margin-top: 30px;
   color: #fff;
+  font-size: 20px;
 }
 
 .OLW_box {
-  width: 100%;
   background-color: #f2f2f2;
-  padding-top: 60px;
-  padding-bottom: 70px;
-
+  padding: 60px 0 70px 0;
+  width: 100%;
 }
 
 .OLW_title {
-  font-size: 24px;
-  margin-bottom: 40px;
   color: #333;
+  margin-bottom: 40px;
   text-align: center;
+  font-size: 24px;
+  font-family: Raleway;
+
 }
 
 .OLW_img_box::after {
@@ -106,10 +101,9 @@ header {
 }
 
 .OLW_img {
-  margin-left: 100px;
-  margin-bottom: 80px;
-  float: left;
+  margin: 0 0 80px 100px;
   opacity: 0.7;
+  float: left;
 }
 .OLW_img:hover {
   opacity: 1;
@@ -133,15 +127,15 @@ header {
 }
 
 .OLW_text {
-  width: 49%;
-  text-align: center;
   margin-right: 90px;
+  text-align: center;
+  width: 49%;
 }
 
 .Email_button {
-  padding: 14px 20px;
   background-color: #74cfae;
   color: #fff;
+  padding: 14px 20px;
   text-decoration: none;
 }
 
@@ -156,17 +150,16 @@ header {
 }
 
 .skills_inner {
-  width: 100%;
-  padding-top: 70px;
-  padding-bottom: 100px;
   background-color: #4e4e4e;
+  padding: 70px 0 100px 0;
+  width: 100%;
 }
 
 .skills_title {
   color: #fff;
   font-size: 24px;
-  text-align: center;
   margin-bottom: 70px;
+  text-align: center;
 }
 
 .skills_img_box::after {
@@ -176,15 +169,15 @@ header {
 }
 
 .skills_img {
-  margin-left: 180px;
   float: left;
+  margin-left: 180px;
 }
 
 .skills_img_text {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 16px;
   color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .skills_img:first-child {
@@ -192,10 +185,9 @@ header {
 }
 
 .sns_inner {
-  width: 100%;
   background-color: #f2f2f2;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px 0;
+  width: 100%;
 }
 
 .sns_box {
@@ -204,8 +196,8 @@ header {
 }
 
 .sns_link_button {
-  width: 185px;
   padding: 20px 0;
+  width: 185px;
 }
 
 .sns_link_button:hover {
@@ -219,16 +211,15 @@ header {
 }
 
 .Author_inner {
-  width: 100%;
   background-color: #74cfae;
+  width: 100%;
 }
 
 .Author_text_box {
   display: flex;
-  justify-content: flex-end;
-  padding-top: 20px;
-  padding-bottom: 25px;
   color: #fff;
+  justify-content: flex-end;
+  padding: 20px 0 25px 0;
 }
 
 .heart_img {
