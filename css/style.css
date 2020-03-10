@@ -1,22 +1,26 @@
 
+body {
+  font-family: "sans-serif";
+}
+.font_releway {
+  font-family: Raleway;
+}
+
 .inner {
   margin: 0 auto;
   width: 1100px;
 }
 
-header {
+.header_box {
   background-color: #fff;
   width: 100%;
-}
-
-.bolt_img {
-  padding: 15px;
+  padding: 15px 0 15px 0;
+  position: fixed;
 }
 
 .contact-button {
   background-color: #74cfae;
   color: #fff;
-  margin: 13px;
   float: right;
   text-decoration: none;
 }
@@ -53,13 +57,13 @@ header {
 
 .SP_what_box {
   background-color: #74cfae;
+  padding-top: 50px;
   width: 100%;
 }
 
 .SP_inner {
   display: flex;
   justify-content: space-around;
-  padding-top: 50px;
 }
 
 .SP_text_box {
@@ -70,7 +74,6 @@ header {
 .SP_title {
   color: #fff;
   font-size: 24px;
-  font-family: Raleway;
 }
 
 .SP_title_text {
@@ -87,11 +90,12 @@ header {
 
 .OLW_title {
   color: #333;
-  margin-bottom: 40px;
   text-align: center;
   font-size: 24px;
-  font-family: Raleway;
+}
 
+.OLW_img_box {
+  margin: 40px 0 90px 0;
 }
 
 .OLW_img_box::after {
@@ -101,7 +105,7 @@ header {
 }
 
 .OLW_img {
-  margin: 0 0 80px 100px;
+  margin: 80px 0 0 100px;
   opacity: 0.7;
   float: left;
 }
@@ -113,12 +117,12 @@ header {
   margin-left: 0px;
 }
 
-.OLW_img:nth-child(4){
-  margin-left: 0px;
+.OLW_img:nth-child(-n+3) {
+  margin-top: 0;
 }
 
-.OLW_img:nth-child(n+4) {
-  margin-bottom: 90px;
+.OLW_img:nth-child(3n+1){
+  margin-left: 0px;
 }
 
 .OLW_text_Email_box {
@@ -149,7 +153,7 @@ header {
   text-align: center;
 }
 
-.skills_inner {
+.skills_box {
   background-color: #4e4e4e;
   padding: 70px 0 100px 0;
   width: 100%;
@@ -162,14 +166,12 @@ header {
   text-align: center;
 }
 
-.skills_img_box::after {
-  content: "";
-  clear: both;
-  display: block;
+.skills_img_box {
+  display: flex;
+  justify-content: center;
 }
 
 .skills_img {
-  float: left;
   margin-left: 180px;
 }
 
@@ -184,13 +186,13 @@ header {
   margin-left: 0px;
 }
 
-.sns_inner {
+.sns_box {
   background-color: #f2f2f2;
   padding: 200px 0;
   width: 100%;
 }
 
-.sns_box {
+.sns_inner {
   display: flex;
   justify-content: center;
 }
@@ -210,12 +212,12 @@ header {
   text-align: center;
 }
 
-.Author_inner {
+.Author_box {
   background-color: #74cfae;
   width: 100%;
 }
 
-.Author_text_box {
+.Author_inner {
   display: flex;
   color: #fff;
   justify-content: flex-end;
