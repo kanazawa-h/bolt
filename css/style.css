@@ -9,7 +9,7 @@ header {
   background-color: #fff;
 }
 
-.fas {
+.bolt_img {
   padding: 15px;
 }
 
@@ -17,12 +17,18 @@ header {
   background-color: #74cfae;
   float: right;
   margin: 13px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  color: #333;
+  transition: 0.3s;
 }
 
 .contact_text {
   font-size: 12px;
   padding: 14px 12px;
-  color: #fff;
 }
 
 .title_inner {
@@ -67,6 +73,11 @@ header {
   color: #fff;
 }
 
+.SP_title::first-letter {
+  font-family: garamond;
+  font-size: 28px;
+}
+
 .SP_title_text {
   font-size: 20px;
   margin-top: 30px;
@@ -76,11 +87,13 @@ header {
 .OLW_box {
   width: 100%;
   background-color: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 70px;
+
 }
 
 .OLW_title {
   font-size: 24px;
-  margin-top: 60px;
   margin-bottom: 40px;
   color: #333;
   text-align: center;
@@ -96,7 +109,12 @@ header {
   margin-left: 100px;
   margin-bottom: 80px;
   float: left;
+  opacity: 0.7;
 }
+.OLW_img:hover {
+  opacity: 1;
+}
+
 .OLW_img:first-child {
   margin-left: 0px;
 }
@@ -112,7 +130,6 @@ header {
 .OLW_text_Email_box {
   display: flex;
   justify-content: center;
-  margin-bottom: 70px;
 }
 
 .OLW_text {
@@ -124,16 +141,24 @@ header {
 .Email_button {
   padding: 14px 20px;
   background-color: #74cfae;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Email_button:hover {
+  color: #333;
+  transition: 0.3s;
 }
 
 .Email_button_text {
   font-size: 14px;
-  color: #fff;
   text-align: center;
 }
 
 .skills_inner {
   width: 100%;
+  padding-top: 70px;
+  padding-bottom: 100px;
   background-color: #4e4e4e;
 }
 
@@ -141,4 +166,71 @@ header {
   color: #fff;
   font-size: 24px;
   text-align: center;
+  margin-bottom: 70px;
+}
+
+.skills_img_box::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.skills_img {
+  margin-left: 180px;
+  float: left;
+}
+
+.skills_img_text {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.skills_img:first-child {
+  margin-left: 0px;
+}
+
+.sns_inner {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.sns_box {
+  display: flex;
+  justify-content: center;
+}
+
+.sns_link_button {
+  width: 185px;
+  padding: 20px 0;
+}
+
+.sns_link_button:hover {
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.sns_link_img {
+  color: #74cfae;
+  text-align: center;
+}
+
+.Author_inner {
+  width: 100%;
+  background-color: #74cfae;
+}
+
+.Author_text_box {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+
+.heart_img {
+  padding: 0 5px;
 }
