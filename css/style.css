@@ -22,6 +22,11 @@ main {
   width: 1100px;
 }
 
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header_box {
   background-color: #fff;
   width: 100%;
@@ -33,7 +38,6 @@ main {
 .contact-button {
   background-color: #74cfae;
   color: #fff;
-  float: right;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -49,7 +53,7 @@ main {
 
 .title_bolt_box {
   background-color: #f2f2f2;
-  width: 100;
+  width: 100%;
   padding: 250px 0;
 }
 
@@ -71,11 +75,6 @@ main {
   background-color: #74cfae;
   padding-top: 50px;
   width: 100%;
-}
-
-.SP_inner {
-  display: flex;
-  justify-content: space-around;
 }
 
 .SP_text_box {
@@ -106,46 +105,18 @@ main {
   font-size: 24px;
 }
 
-.OLW_img_box {
-  margin: 40px 0 90px 0;
-}
-
-.OLW_img_box::after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
 .OLW_img {
-  margin: 80px 0 0 100px;
   opacity: 0.7;
-  float: left;
   transition: 0.3s;
 }
+
 .OLW_img:hover {
   opacity: 1;
-}
-
-.OLW_img:nth-child(-n+3) {
-  margin-top: 0;
-}
-
-.OLW_img:nth-child(3n+1){
-  margin-left: 0px;
-}
-
-
-.OLW_text {
-  float: left;
-  margin: 0 90px 0 90px;
-  text-align: center;
-  width: 49%;
 }
 
 .Email_button {
   background-color: #74cfae;
   color: #fff;
-  float: left;
   padding: 14px 20px;
   text-decoration: none;
   transition: 0.3s;
@@ -173,15 +144,6 @@ main {
   text-align: center;
 }
 
-.skills_img_box {
-  display: flex;
-  justify-content: center;
-}
-
-.skills_img {
-  margin-left: 180px;
-}
-
 .skills_img_text {
   color: #fff;
   font-size: 16px;
@@ -189,19 +151,10 @@ main {
   text-align: center;
 }
 
-.skills_img:first-child {
-  margin-left: 0px;
-}
-
 .sns_box {
   background-color: #f2f2f2;
   padding: 200px 0;
   width: 100%;
-}
-
-.sns_inner {
-  display: flex;
-  justify-content: center;
 }
 
 .sns_link_button {
@@ -233,4 +186,128 @@ main {
 
 .heart_img {
   margin: 0 5px;
+}
+
+@media screen and (min-width: 1200px) {
+  .SP_inner {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .OLW_img_box {
+    margin: 40px 0 90px 0;
+  }
+
+  .OLW_img {
+    margin: 80px 0 0 100px;
+    float: left;
+  }
+
+  .OLW_img:nth-child(-n+3) {
+    margin-top: 0;
+  }
+  
+  .OLW_img:nth-child(3n+1){
+    margin-left: 0px;
+  }
+
+  .OLW_img_box::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  .OLW_text {
+    float: left;
+    margin: 0 90px 0 90px;
+    text-align: center;
+    width: 49%;
+  }
+
+  .Email_button {
+    float: left;
+  }
+
+  .skills_img_box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .skills_img:first-child {
+    margin-left: 0px;
+  }
+
+  .skills_img {
+    margin-left: 180px;
+  }
+
+  .sns_inner {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .inner {
+    width: 768px;
+  }
+
+.SP_what_box {
+  padding: 50px 0 25px 0;
+}
+
+  .SP_inner {
+    text-align: center;
+  }
+
+  .SP_text_box {
+    width: 100%;
+  }
+  
+  .SP_title {
+    margin: 20px 0 35px 0;
+  }
+
+  .OLW_title {
+    margin-bottom: 40px;
+  }
+
+  .OLW_img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .OLW_img:nth-child(3n) {
+    margin-bottom: 80px;
+  }
+
+  .OLW_text {
+    margin-bottom: 40px;
+  }
+
+  .OLW_text_Email_box {
+    text-align: center;
+  }
+
+  .Email_button {
+    margin: 0 auto;
+    display: block;
+    width: 68px;
+  }
+
+  .skills_img_box {
+    text-align: center;
+  }
+
+  .skills_img {
+    margin-bottom: 88px;
+  }
+  .skills_img:last-child {
+    margin-bottom: 0;
+  }
+
+  .sns_inner {
+    display: flex;
+    justify-content: center;
+  }
 }
