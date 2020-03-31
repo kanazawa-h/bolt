@@ -24,7 +24,7 @@ main {
 
 .header_inner {
   display: flex;
-  justify-content: space-between;
+  position: relative;
 }
 
 .header_box {
@@ -38,6 +38,8 @@ main {
 .contact-button {
   background-color: #74cfae;
   color: #fff;
+  position: absolute;
+  left: 90%;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -108,6 +110,7 @@ main {
 .OLW_img {
   opacity: 0.7;
   transition: 0.3s;
+  width: 300px;
 }
 
 .OLW_img:hover {
@@ -154,7 +157,6 @@ main {
 .sns_box {
   background-color: #f2f2f2;
   padding: 200px 0;
-  width: 100%;
 }
 
 .sns_link_button {
@@ -256,10 +258,6 @@ main {
     width: 97%;
   }
 
-  .contact-hamburger {
-    display: none;
-  }
-
   .SP_what_box {
    padding: 50px 0 25px 0;
   }
@@ -282,7 +280,7 @@ main {
 
   .OLW_img {
     display: flex;
-    justify-content: center;
+    margin: 0 auto;
   }
 
   .OLW_img:nth-child(3n) {
@@ -337,6 +335,8 @@ main {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    position: absolute;
+    left: 90%;
   }
 
   /*ハンバーガー*/
@@ -362,5 +362,16 @@ main {
   .title_bolt {
     font-size: 80px;
   }
+  .sns_box {
+    padding: 50px 15px;
+  }
 
+  .sns_inner {
+    flex-direction: column;
+  }
+
+  .sns_link_button {
+    margin: 0 auto;
+    width: 100%;
+  }
 }
