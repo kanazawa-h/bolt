@@ -4,7 +4,7 @@ body {
 }
 
 main {
-  padding-top: 70px;
+  padding-top: 62px;
 }
 
 .font_releway {
@@ -256,6 +256,9 @@ main {
 @media screen and (max-width: 1199px) {
   .inner {
     width: 97%;
+  }
+  .contact-hamburger {
+    display: none;
   }
 
   .SP_what_box {
