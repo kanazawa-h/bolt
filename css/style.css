@@ -162,6 +162,7 @@ main {
 .sns_link_button {
   padding: 20px 0;
   width: 185px;
+  text-align: center;
   transition: 0.3s;
 }
 
@@ -201,7 +202,7 @@ main {
   }
 
   .OLW_img_box {
-    margin: 40px 0 90px 0;
+    margin-top: 40px;
   }
 
   .OLW_img {
@@ -221,6 +222,10 @@ main {
     content: "";
     clear: both;
     display: block;
+  }
+
+  .OLW_text_Email_box {
+    margin-top: 90px;
   }
 
   .OLW_text {
@@ -246,10 +251,9 @@ main {
   .skills_img {
     margin-left: 180px;
   }
-
-  .sns_inner {
+  .sns_link_box {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 
@@ -271,9 +275,6 @@ main {
 
   .SP_text_box {
     width: 100%;
-  }
-  
-  .SP_title {
     margin: 20px 0 35px 0;
   }
 
@@ -315,9 +316,9 @@ main {
     margin-bottom: 0;
   }
 
-  .sns_inner {
+  .sns_link_box {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 
@@ -338,6 +339,7 @@ main {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    display: block;
     position: absolute;
     left: 90%;
   }
@@ -348,9 +350,9 @@ main {
   width: 25px;
   border-radius: 4px;
   background: #ddd;
-  display: block;
   content: '';
   cursor: pointer;
+  display: block;
   margin-top: 5px;
   }
 
@@ -372,9 +374,13 @@ main {
   .sns_inner {
     flex-direction: column;
   }
+  .sns_link_box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .sns_link_button {
-    margin: 0 auto;
     width: 100%;
   }
 }
