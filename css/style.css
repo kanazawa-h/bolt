@@ -305,6 +305,10 @@ a {
     margin: 80px 0 40px 0;
   }
 
+  .OLW_text {
+    margin-bottom: 40px;
+  }
+
   .Email_button {
     margin: 0 auto;
     display: block;
