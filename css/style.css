@@ -108,14 +108,19 @@ a {
   font-size: 24px;
 }
 
-.OLW_img {
+.OLW_img_atag {
   opacity: 0.7;
   transition: 0.3s;
   width: 300px;
+
 }
 
-.OLW_img:hover {
+.OLW_img_atag:hover {
   opacity: 1;
+}
+
+.OLW_img_v-al {
+  vertical-align: bottom;
 }
 
 .Email_button {
@@ -161,20 +166,17 @@ a {
   padding: 200px 0;
 }
 
-.sns_link_button {
+.sns_link_atag {
+  color: #74cfae;
   padding: 20px 0;
   width: 185px;
+  height: auto;
   text-align: center;
   transition: 0.3s;
 }
 
-.sns_link_button:hover {
+.sns_link_atag:hover {
   background-color: #fff;
-}
-
-.sns_link_img {
-  color: #74cfae;
-  text-align: center;
 }
 
 .Author_box {
@@ -298,12 +300,9 @@ a {
     margin-top: 0px;
   }
 
-  .OLW_text {
-    margin: 80px 0 40px 0;
-  }
-
   .OLW_text_Email_box {
     text-align: center;
+    margin: 80px 0 40px 0;
   }
 
   .Email_button {
@@ -387,7 +386,4 @@ a {
     align-items: center;
   }
 
-  .sns_link_button {
-    width: 100%;
-  }
 }
