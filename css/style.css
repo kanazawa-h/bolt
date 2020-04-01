@@ -389,5 +389,11 @@ a {
     justify-content: center;
     align-items: center;
   }
+  .sns_link_button {
+    width: 100%;
+  }
 
+  .sns_link_atag {
+    width: 100%;
+  }
 }
