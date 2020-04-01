@@ -1,33 +1,28 @@
+@charset "UTF-8";
 
 body {
-  font-family: "sans-serif";
+  font-family: "Lato";
 }
-
 main {
   padding-top: 62px;
 }
-
 .font_releway {
-  font-family: Raleway;
+  font-family: "Raleway";
 }
-
 .clearfix:after {
   content: "";
   display: block;
   clear: both;
 }
-
 a {
   display: block;
   width: 100%;
   height: 100%;
 }
-
 .inner {
   margin: 0 auto;
   width: 1100px;
 }
-
 .header_box {
   background-color: #fff;
   width: 100%;
@@ -35,7 +30,6 @@ a {
   position: fixed;
   z-index: 9999;
 }
-
 .contact-button {
   background-color: #74cfae;
   color: #fff;
@@ -44,86 +38,68 @@ a {
   transition: 0.3s;
   width: auto;
 }
-
 .contact-button:hover {
   color: #333;
 }
-
 .contact_text {
   padding: 14px 12px;
   font-size: 12px;
 }
-
 .title_bolt_box {
   background-color: #f2f2f2;
-  width: 100%;
   padding: 250px 0;
 }
-
 .title_bolt {
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
   text-align: center;
 }
-
 .sub_title {
   color: #c0c0c0;
   margin-top: 20px;
   font-size: 30px;
   text-align: center;
 }
-
-.SP_what_box {
+.sp_what_box {
   background-color: #74cfae;
   padding-top: 50px;
-  width: 100%;
 }
-
-.SP_text_box {
+.sp_text_box {
   text-align: center;
   width: 70%;
 }
-
-.SP_title {
+.sp_title {
   color: #fff;
   font-size: 24px;
 }
-
-.SP_title_text {
+.sp_title_text {
   margin-top: 30px;
   color: #fff;
   font-size: 20px;
 }
-
-.OLW_box {
+.olw_box {
   background-color: #f2f2f2;
   padding: 60px 0 70px 0;
   width: 100%;
 }
-
-.OLW_title {
+.olw_title {
   color: #333;
   text-align: center;
   font-size: 24px;
 }
-
-.OLW_img_atag {
+.olw_img_atag {
   opacity: 0.7;
   transition: 0.3s;
   width: 300px;
-
 }
-
-.OLW_img_atag:hover {
+.olw_img_atag:hover {
   opacity: 1;
 }
-
-.OLW_img_v-al {
+.olw_img_v-al {
   vertical-align: bottom;
 }
-
-.Email_button {
+.email_button {
   background-color: #74cfae;
   color: #fff;
   padding: 14px 20px;
@@ -131,41 +107,35 @@ a {
   transition: 0.3s;
   width: auto;
 }
-
-.Email_button:hover {
+.email_button:hover {
   color: #333;
 }
 
-.Email_button_text {
+.email_button_text {
   font-size: 14px;
   text-align: center;
 }
-
 .skills_box {
   background-color: #4e4e4e;
   padding: 70px 0 100px 0;
   width: 100%;
 }
-
 .skills_title {
   color: #fff;
   font-size: 24px;
   margin-bottom: 70px;
   text-align: center;
 }
-
 .skills_img_text {
   color: #fff;
   font-size: 16px;
   margin-top: 10px;
   text-align: center;
 }
-
 .sns_box {
   background-color: #f2f2f2;
   padding: 200px 0;
 }
-
 .sns_link_atag {
   color: #74cfae;
   padding: 20px 0;
@@ -174,83 +144,60 @@ a {
   text-align: center;
   transition: 0.3s;
 }
-
 .sns_link_atag:hover {
   background-color: #fff;
 }
 
-.Author_box {
+.author_box {
   background-color: #74cfae;
   padding: 20px 0 25px 0;
   width: 100%;
 }
-
-.Author_inner {
+.author_inner {
   color: #fff;
   text-align: end;
 }
 
-.heart_img {
-  margin: 0 5px;
-}
-
 @media screen and (min-width: 1200px) {
-  .SP_inner {
+  .sp_inner {
     display: flex;
     justify-content: space-around;
   }
-
   .contact-hamburger {
     display: none;
   }
-
-  .OLW_img_box {
+  .olw_img_box {
     margin-top: 40px;
   }
-
-  .OLW_img {
+  .olw_img {
     margin: 80px 0 0 100px;
     float: left;
   }
-
-  .OLW_img:nth-child(-n+3) {
+  .olw_img:nth-child(-n+3) {
     margin-top: 0;
   }
-  
-  .OLW_img:nth-child(3n+1){
-    margin-left: 0px;
+  .olw_img:nth-child(3n+1){
+    margin-left: 0;
   }
-
-  .OLW_img_box::after {
-    content: "";
-    clear: both;
-    display: block;
-  }
-
-  .OLW_text_Email_box {
+  .olw_text_email_box {
     margin-top: 90px;
   }
-
-  .OLW_text {
+  .olw_text {
     float: left;
     margin: 0 90px 0 90px;
     text-align: center;
     width: 49%;
   }
-
-  .Email_button {
+  .email_button {
     float: left;
   }
-
   .skills_img_box {
     display: flex;
     justify-content: center;
   }
-
   .skills_img:first-child {
-    margin-left: 0px;
+    margin-left: 0;
   }
-
   .skills_img {
     margin-left: 180px;
   }
@@ -267,65 +214,52 @@ a {
   .contact-hamburger {
     display: none;
   }
-
-  .SP_what_box {
-   padding: 50px 0 25px 0;
+  .sp_what_box {
+    padding: 50px 0 25px 0;
   }
-
-  .SP_inner {
+  .sp_inner {
     text-align: center;
   }
-
-  .SP_text_box {
+  .sp_text_box {
     width: 100%;
-    margin: 20px 0 35px 0;
+    margin-top: 20px;
   }
-
-  .OLW_title {
+  .olw_title {
     margin-bottom: 40px;
   }
-
-  .OLW_img_box {
+  .olw_img_box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
-  .OLW_img:nth-child(3n+1) {
+  .olw_img:nth-child(3n+1) {
     margin-top: 80px;
   }
-
-  .OLW_img:first-child {
-    margin-top: 0px;
+  .olw_img:first-child {
+    margin-top: 0;
   }
-
-  .OLW_text_Email_box {
+  .olw_text_email_box {
     text-align: center;
-    margin: 80px 0 40px 0;
+    margin-top: 80px;
   }
-
-  .OLW_text {
+  .olw_text {
     margin-bottom: 40px;
   }
-
-  .Email_button {
+  .email_button {
     margin: 0 auto;
     display: block;
     width: 68px;
   }
-
   .skills_img_box {
     text-align: center;
   }
-
   .skills_img {
     margin-bottom: 88px;
   }
   .skills_img:last-child {
     margin-bottom: 0;
   }
-
   .sns_link_box {
     display: flex;
     justify-content: space-around;
@@ -333,18 +267,18 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+  main {
+    padding-top: 72px;
+  }
   .inner {
     width: 97%;
   }
-
   .contact-button {
     display: none;
   }
-
   .contact_text {
     display: none;
   }
-
   .contact-hamburger {
     padding: 10px;
     border: 1px solid #ddd;
@@ -353,36 +287,27 @@ a {
     float: right;
     width: auto;
   }
-
-  /*ハンバーガー*/
   span {
-  height: 3px;
-  width: 25px;
-  border-radius: 4px;
-  background: #ddd;
-  content: '';
-  cursor: pointer;
-  display: block;
-  margin-top: 5px;
+    height: 3px;
+    width: 25px;
+    border-radius: 4px;
+    background: #ddd;
+    content: '';
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
   }
-
   span:first-child {
     margin-top: 0px;
   }
-
   .title_bolt_box {
     padding: 160px 0 130px 0;
   }
-
   .title_bolt {
     font-size: 80px;
   }
   .sns_box {
     padding: 50px 15px;
-  }
-
-  .sns_inner {
-    flex-direction: column;
   }
   .sns_link_box {
     flex-direction: column;
@@ -392,7 +317,6 @@ a {
   .sns_link_button {
     width: 100%;
   }
-
   .sns_link_atag {
     width: 100%;
   }
